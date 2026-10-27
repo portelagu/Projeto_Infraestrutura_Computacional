@@ -1,0 +1,64 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Página-1" id="CEaF-_u1Azs-vz9yHC9z">
+    <mxGraphModel dx="2491" dy="874" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Ube-8gi7wKKdzKT0IkS1-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=center;fillColor=#BDBDBD;" value="&lt;blockquote style=&quot;margin: 0px 0px 0px 40px; border-width: medium; border-style: none; border-color: currentcolor; border-image: none; padding: 0px;&quot;&gt;&lt;br&gt;&lt;/blockquote&gt;" vertex="1">
+          <mxGeometry height="590" width="800" x="-120" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="Ube-8gi7wKKdzKT0IkS1-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;b&gt;SRV-AD01&lt;/b&gt;&amp;nbsp;&lt;div&gt;&lt;b&gt;Função&lt;/b&gt;: AD DS, DNS, DHCP&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Recursos&lt;/b&gt;: 4vCPU, 8GB RAM, 100GB Disco&lt;/div&gt;" vertex="1">
+          <mxGeometry height="110" width="250" x="-100" y="780" as="geometry" />
+        </mxCell>
+        <mxCell id="Ube-8gi7wKKdzKT0IkS1-16" edge="1" parent="1" source="Ube-8gi7wKKdzKT0IkS1-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" target="Ube-8gi7wKKdzKT0IkS1-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ube-8gi7wKKdzKT0IkS1-19" connectable="0" parent="Ube-8gi7wKKdzKT0IkS1-16" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Dependência de Auth/DNS" vertex="1">
+          <mxGeometry relative="1" x="-0.0168" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ube-8gi7wKKdzKT0IkS1-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;b&gt;SRV-FS01&lt;/b&gt;&lt;div&gt;&lt;b&gt;Função&lt;/b&gt;: Servidor de Arquivos e Impressão&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Recursos&lt;/b&gt;: 8 vCPU, 16GB RAM, 6TB Disco&lt;/div&gt;" vertex="1">
+          <mxGeometry height="110" width="250" x="390" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="Ube-8gi7wKKdzKT0IkS1-17" edge="1" parent="1" source="Ube-8gi7wKKdzKT0IkS1-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Ube-8gi7wKKdzKT0IkS1-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ube-8gi7wKKdzKT0IkS1-22" connectable="0" parent="Ube-8gi7wKKdzKT0IkS1-17" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Dependência de Auth/DNS" vertex="1">
+          <mxGeometry relative="1" x="0.0083" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ube-8gi7wKKdzKT0IkS1-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;b&gt;SRV-APP01&lt;/b&gt;&lt;div&gt;&lt;div&gt;&lt;b&gt;Função&lt;/b&gt;: ERP (Aplicações) e SQL Server&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Recursos&lt;/b&gt;: 16 vCPU, 64GB RAM, 1TB Disco&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="110" width="250" x="390" y="780" as="geometry" />
+        </mxCell>
+        <mxCell id="Ube-8gi7wKKdzKT0IkS1-18" edge="1" parent="1" source="Ube-8gi7wKKdzKT0IkS1-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" target="Ube-8gi7wKKdzKT0IkS1-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ube-8gi7wKKdzKT0IkS1-23" connectable="0" parent="Ube-8gi7wKKdzKT0IkS1-18" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Dependência de Auth/DNS" vertex="1">
+          <mxGeometry relative="1" x="-0.0862" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ube-8gi7wKKdzKT0IkS1-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;b&gt;SRV-BKP01&lt;/b&gt;&lt;div&gt;&lt;div&gt;&lt;b&gt;Função&lt;/b&gt;: Backup e Monitoramento&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Recursos&lt;/b&gt;: 4 vCPU, 8GB RAM, 500GB Disco&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="110" width="250" x="390" y="910" as="geometry" />
+        </mxCell>
+        <mxCell id="Ube-8gi7wKKdzKT0IkS1-24" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;blockquote style=&quot;margin: 0px 0px 0px 40px; border-width: medium; border-style: none; border-color: currentcolor; border-image: none; padding: 0px;&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 19px;&quot;&gt;SRV-HOST01 (Físico) - Dell PowerEdge R750&lt;/font&gt;&lt;/b&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0px 0px 0px 40px; border-width: medium; border-style: none; border-color: currentcolor; border-image: none; padding: 0px;&quot;&gt;&lt;font style=&quot;font-size: 19px;&quot;&gt;&lt;b style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Função&lt;/b&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;: Hypervisor (Hyper-V)&lt;/span&gt;&lt;/font&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0px 0px 0px 40px; border-width: medium; border-style: none; border-color: currentcolor; border-image: none; padding: 0px;&quot;&gt;&lt;font style=&quot;font-size: 19px;&quot;&gt;&lt;b style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Hardware Total&lt;/b&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;: 32 Cores, 128GB RAM, 8TB RAID 10&lt;/span&gt;&lt;/font&gt;&lt;/blockquote&gt;" vertex="1">
+          <mxGeometry height="110" width="540" x="10" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="Ube-8gi7wKKdzKT0IkS1-25" parent="1" style="image;html=1;image=img/lib/clip_art/computers/Server_128x128.png" value="" vertex="1">
+          <mxGeometry height="75" width="60" x="485" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="Ube-8gi7wKKdzKT0IkS1-28" parent="1" style="image;html=1;image=img/lib/clip_art/computers/Server_128x128.png" value="" vertex="1">
+          <mxGeometry height="75" width="60" x="485" y="750" as="geometry" />
+        </mxCell>
+        <mxCell id="Ube-8gi7wKKdzKT0IkS1-29" parent="1" style="image;html=1;image=img/lib/clip_art/computers/Server_128x128.png" value="" vertex="1">
+          <mxGeometry height="75" width="60" x="485" y="880" as="geometry" />
+        </mxCell>
+        <mxCell id="Ube-8gi7wKKdzKT0IkS1-30" parent="1" style="image;html=1;image=img/lib/clip_art/computers/Server_128x128.png" value="" vertex="1">
+          <mxGeometry height="75" width="60" x="-5" y="750" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
